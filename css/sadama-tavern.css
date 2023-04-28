@@ -78,7 +78,7 @@ animation-duration: 0.6s;
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #f1f1f1;
+  color: #ADDFDE;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -86,7 +86,7 @@ animation-duration: 0.6s;
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: #ADDFDE;
   text-decoration: none;
   cursor: pointer;
 }
@@ -105,8 +105,8 @@ animation-duration: 0.6s;
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #d4e1ee;
-  --secondary-color:              #5c47e3;
+  --primary-color:                #0c4b8a9a;
+  --secondary-color:              #0C4C8A;
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #7a81d6;
   --custom-btn-bg-hover-color:    #283ccf;
@@ -263,7 +263,7 @@ strong {
 }
 
 .custom-block-bg-overlay-wrap:hover {
-  background: linear-gradient(90deg, #2d72fd 0%, #0a3d3e 100%);
+  background: linear-gradient(90deg, #1F375D 5%, #7dacd0 100%);
   transform: scale(1.05);
 }
 
@@ -347,7 +347,7 @@ strong {
 }
 
 .logo-image {
-  width: 154px;
+  width: 200px;
   height: auto;
   margin-bottom: 70px;
 }
@@ -465,7 +465,7 @@ strong {
 
 .hero-section::after {
   content: "";
-  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+  background: linear-gradient(90deg, #ADDFDE 0%, #1F375D 100%);
   position: absolute;
   top: 0;
   right: 0;
@@ -770,7 +770,7 @@ strong {
 
 .site-footer::after {
   content: "";
-  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+  background: linear-gradient(90deg, #ADDFDE 0%, #1F375D 100%);
   position: absolute;
   right: 0;
   bottom: 0;
