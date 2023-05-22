@@ -30,7 +30,7 @@
   margin: auto;
   display: block;
   width: 75%;
-  //max-width: 75%;
+  max-width: 75%;
 }
 
 /* Caption of Modal Image */
@@ -108,12 +108,14 @@ animation-duration: 0.6s;
   --primary-color:                #0c4b8a9a;
   --secondary-color:              #0C4C8A;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #7a81d6;
+  --custom-btn-bg-color:          #0C4C8A;
   --custom-btn-bg-hover-color:    #283ccf;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #7fffd4;
-  --link-hover-color:             #27b29f;
+  --link-hover-color:             #97D5E0;
+  --info-button:                  #0C4C8A;
+  --info-button-letter:           #ffffffe3;
 
   --body-font-family:             'Unbounded', cursive;
 
@@ -146,6 +148,7 @@ body {
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
+
 
 h2,
 h3,
@@ -284,6 +287,11 @@ strong {
 /*---------------------------------------
   CUSTOM BUTTON               
 -----------------------------------------*/
+
+.infobutton {
+  color: var(--info-button-letter);
+}
+
 .custom-btn {
   background: var(--custom-btn-bg-color);
   border: 2px solid transparent;
@@ -568,6 +576,7 @@ strong {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
+  color: #f0f8ffd8;
 }
 
 
@@ -597,11 +606,12 @@ strong {
 }
 
 .services-thumb-price {
-  background: var(--primary-color);
+  background: var(--info-button);
   border-radius: var(--border-radius-medium);
   font-size: var(--copyright-font-size);
   margin-left: auto;
   padding: 5px 10px;
+  color: var(--info-button-letter);
 }
 
 .services-info {
