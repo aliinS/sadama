@@ -30,7 +30,7 @@
   margin: auto;
   display: block;
   width: 75%;
-  max-width: 75%;
+  max-width: 48%;
 }
 
 /* Caption of Modal Image */
@@ -452,6 +452,15 @@ strong {
 /*---------------------------------------
   HERO        
 -----------------------------------------*/
+
+
+
+@media only screen and (min-width: 767px) {
+  .hdnmb {
+    display: none;
+  }
+}
+
 .hero-section {
   background-image: url('../images/sadamakorts_summer.jpg');
   background-repeat: no-repeat;
